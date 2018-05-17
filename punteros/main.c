@@ -3,6 +3,7 @@
 
 //void intercambiar(int num1, int num2);
 void intercambiarP(int *num1, int *num2);
+void ponerEnCero(int *num);
 
 
 
@@ -13,6 +14,8 @@ int main()
 
     edadUno=22;
     edadDos=99;
+
+    ponerEnCero////LLLAMAR A LA FUNCIOOOON
 
     //intercambiar (edadUno, edadDos);
     intercambiarP (&edadUno, &edadDos);
@@ -43,4 +46,10 @@ void intercambiarP (int *num1, int *num2)
     aux=*num1;
     *num1=*num2;
     *num2=aux;
+}
+
+
+void ponerEnCero(int *num)
+{
+    *num=0;
 }
