@@ -8,3 +8,5 @@ cd PunterosEnC-
 	git add .
 	git commit -m "mensaje de poruqe se guarda"
 	....
+
+	git push origin master -f
