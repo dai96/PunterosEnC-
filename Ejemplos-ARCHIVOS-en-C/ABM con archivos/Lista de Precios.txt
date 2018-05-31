@@ -1,0 +1,7 @@
+Listado de Alumnos
+
+
+Legajo    Nombre     Promedio 
+333	fds fcfsd	0.00
+123	Perez Juan	8.00
+25	kkk kkk	10.00
